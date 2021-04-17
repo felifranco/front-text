@@ -26,3 +26,8 @@ La última salida de consola que se visualizará es el resultado de [webpack-dev
 **IMPORTANTE**: El recurso estará disponible en [http://localhost:3000/](http://localhost:3000/) o [http://0.0.0.0:3000/](http://0.0.0.0:3000/). Si se desean cambiar estos valores se deben editar los archivos *webpack.config.js* y *docker-compose.yml*.
 
 ![principal](/docu/principal.png)
+
+## Scripts configurados
+El proyecto tiene configurado dos scripts:
+1. **npm build**: Construye la salida del webpack.
+2. **npm start**: Permite ejecutar el servicio.
