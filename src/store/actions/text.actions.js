@@ -21,9 +21,9 @@ export function revert(text, currentList) {
 
                 if (error) throw new Error();
 
-                if (currentList.length > 2 && currentList.length !== 0) currentList.splice(0, 1);
-
                 currentList = currentList.reverse();
+
+                if (currentList.length > 2 && currentList.length !== 0) currentList.splice(0, 1);
 
                 const list = [...currentList, { text, palindrome }];
 
